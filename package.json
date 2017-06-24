@@ -1,0 +1,38 @@
+{
+  "name": "react-webcomponent",
+  "version": "1.0.0",
+  "description": "Create web components from your react components",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "preexample": "npm run build",
+    "example": "npm run --prefix=example start",
+    "prettier": "prettier --write --parser=typescript src/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LukeSheard/react-webcomponents.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Luke Sheard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeSheard/react-webcomponents/issues"
+  },
+  "homepage": "https://github.com/LukeSheard/react-webcomponents#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.66",
+    "@types/node": "^8.0.1",
+    "@types/react": "^15.0.29",
+    "@types/react-dom": "^15.5.0",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prettier": "^1.4.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
